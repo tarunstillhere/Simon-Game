@@ -6,8 +6,9 @@ let level = 0;
 let btns = ["yellow", "purple", "red", "green"];
 
 let h2 = document.querySelector("h2");
+let input = document.querySelector("input");
 
-document.addEventListener("keypress", function () {
+input.addEventListener("keypress", function () {
     if (started == false) {
         console.log("Game Started");
         started = true;
